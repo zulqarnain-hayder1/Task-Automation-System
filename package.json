@@ -1,0 +1,21 @@
+{
+  "name": "task-automation-system",
+  "version": "1.0.0",
+  "description": "Full-stack Task Automation System for managing intern tasks",
+  "scripts": {
+    "install-all": "cd backend && npm install && cd ../frontend && npm install",
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm run dev",
+    "dev": "echo Please run backend and frontend separately in different terminals",
+    "build-frontend": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "task-management",
+    "automation",
+    "react",
+    "express",
+    "mongodb"
+  ],
+  "author": "",
+  "license": "MIT"
+}
